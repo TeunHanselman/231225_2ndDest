@@ -1,0 +1,23 @@
+.indexNav {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+}
+
+.indexNav p {
+  text-align: center;
+  align-self: center;
+}
+
+.indexNav a {
+    color: black;
+}
+
+.indexNav a:hover {
+    cursor: zoom-in;
+    color: blue;
+}
+
