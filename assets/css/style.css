@@ -9,6 +9,8 @@ body {
   grid-template-rows: repeat(5, 1fr); */
   /* position: fixed; */
   width: 100%;
+
+  font-feature-settings: "lnum";
 }
 
 
