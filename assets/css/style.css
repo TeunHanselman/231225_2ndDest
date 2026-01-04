@@ -1,3 +1,7 @@
+:root {
+  --body-padding: 25px;
+}
+
 body {
   font-family: "TimesNewRoman7";
   background-color:grey;
@@ -11,6 +15,7 @@ body {
   width: 100%;
 
   font-feature-settings: "lnum";
+  padding-top: var(--body-padding);
 }
 
 
@@ -55,6 +60,7 @@ img {
 
 
 .imageGrid {
+    padding-top: var(--body-padding);
     position: absolute;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
