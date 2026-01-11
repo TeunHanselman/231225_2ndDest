@@ -5,13 +5,6 @@
 body {
   font-family: "TimesNewRoman7";
   background-color:grey;
-  /* position: absolute; */
-  /* display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr); */
-  /* position: fixed; */
   width: 100%;
 
   font-feature-settings: "lnum";
