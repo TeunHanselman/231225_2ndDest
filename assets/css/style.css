@@ -11,8 +11,36 @@ body {
   padding-top: var(--body-padding);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 
+
+.backButtonGrid {
+  z-index: 0;
+  position: fixed;
+  top: var(--body-padding);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: 20px;
+}
+
+.backButton {
+  font-size: 20pt;
+  grid-column: 12;
+  text-align: center;
+  paint-order: stroke fill;
+  /* -webkit-text-stroke: 0.5px white; */
+}
+
+.backButton:hover {
+  color: blue;
+  -webkit-text-stroke: 0px;
+  cursor: pointer;
+}
 
 
 .container {
